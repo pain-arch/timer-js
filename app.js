@@ -1,10 +1,13 @@
+// target date
 const newYear = '1 jan 2022';
 
+//days, hours, mins, secs 
 const getDays = document.getElementById('days');
 const getHours = document.getElementById('hours');
 const getMins = document.getElementById('mins');
 const getSeconds = document.getElementById('seconds'); 
 
+//function for setup the timer
 function timer(){
 
     const newYearDate = new Date(newYear);
